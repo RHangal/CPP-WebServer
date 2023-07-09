@@ -1,0 +1,18 @@
+//
+//  SimpleServer.cpp
+//  WebServerLib
+//
+//  Created by Rohan Hangal on 7/8/23.
+//
+
+#include "SimpleServer.hpp"
+
+HDE::SimpleServer::SimpleServer(int domain, int service, int protocol, int port, u_long interface, int bklg)
+{
+    socket = new ListeningSocket(domain, service, protocol, port, interface, bklg);
+}
+
+HDE::ListeningSocket* HDE::SimpleServer::get_socket()
+{
+    return socket;
+}

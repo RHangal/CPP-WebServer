@@ -6,8 +6,49 @@
 	objectVersion = 56;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		509333EE2A5799520050DAAE /* hdelibc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 509333EC2A5799520050DAAE /* hdelibc.cpp */; };
+		509333EF2A5799520050DAAE /* hdelibc.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 509333ED2A5799520050DAAE /* hdelibc.hpp */; };
+		509333F42A579A7A0050DAAE /* SimpleSocket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 509333F22A579A7A0050DAAE /* SimpleSocket.cpp */; };
+		509333F52A579A7A0050DAAE /* SimpleSocket.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 509333F32A579A7A0050DAAE /* SimpleSocket.hpp */; };
+		509333F82A58C2D60050DAAE /* BindingSocket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 509333F62A58C2D60050DAAE /* BindingSocket.cpp */; };
+		509333F92A58C2D60050DAAE /* BindingSocket.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 509333F72A58C2D60050DAAE /* BindingSocket.hpp */; };
+		509333FC2A58D4100050DAAE /* ConnectingSocket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 509333FA2A58D4100050DAAE /* ConnectingSocket.cpp */; };
+		509333FD2A58D4100050DAAE /* ConnectingSocket.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 509333FB2A58D4100050DAAE /* ConnectingSocket.hpp */; };
+		509334002A58DE080050DAAE /* ListeningSocket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 509333FE2A58DE080050DAAE /* ListeningSocket.cpp */; };
+		509334012A58DE080050DAAE /* ListeningSocket.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 509333FF2A58DE080050DAAE /* ListeningSocket.hpp */; };
+		509334052A58F5D90050DAAE /* hdelibc-sockets.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 509334032A58F5D90050DAAE /* hdelibc-sockets.cpp */; };
+		509334062A58F5D90050DAAE /* hdelibc-sockets.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 509334042A58F5D90050DAAE /* hdelibc-sockets.hpp */; };
+		509334092A594B2A0050DAAE /* hdelibc-networking.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 509334072A594B2A0050DAAE /* hdelibc-networking.cpp */; };
+		5093340A2A594B2B0050DAAE /* hdelibc-networking.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 509334082A594B2A0050DAAE /* hdelibc-networking.hpp */; };
+		509334102A5A0D2A0050DAAE /* SimpleServer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5093340E2A5A0D2A0050DAAE /* SimpleServer.cpp */; };
+		509334112A5A0D2A0050DAAE /* SimpleServer.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 5093340F2A5A0D2A0050DAAE /* SimpleServer.hpp */; };
+		509334142A5A12AF0050DAAE /* TestServer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 509334122A5A12AF0050DAAE /* TestServer.cpp */; };
+		509334152A5A12AF0050DAAE /* TestServer.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 509334132A5A12AF0050DAAE /* TestServer.hpp */; };
+		509334172A5A1A1E0050DAAE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 509334162A5A1A1E0050DAAE /* main.cpp */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		509333E52A57991C0050DAAE /* libWebServerLib.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libWebServerLib.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		509333EC2A5799520050DAAE /* hdelibc.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = hdelibc.cpp; sourceTree = "<group>"; };
+		509333ED2A5799520050DAAE /* hdelibc.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = hdelibc.hpp; sourceTree = "<group>"; };
+		509333F22A579A7A0050DAAE /* SimpleSocket.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SimpleSocket.cpp; sourceTree = "<group>"; };
+		509333F32A579A7A0050DAAE /* SimpleSocket.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SimpleSocket.hpp; sourceTree = "<group>"; };
+		509333F62A58C2D60050DAAE /* BindingSocket.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BindingSocket.cpp; sourceTree = "<group>"; };
+		509333F72A58C2D60050DAAE /* BindingSocket.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BindingSocket.hpp; sourceTree = "<group>"; };
+		509333FA2A58D4100050DAAE /* ConnectingSocket.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ConnectingSocket.cpp; sourceTree = "<group>"; };
+		509333FB2A58D4100050DAAE /* ConnectingSocket.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ConnectingSocket.hpp; sourceTree = "<group>"; };
+		509333FE2A58DE080050DAAE /* ListeningSocket.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ListeningSocket.cpp; sourceTree = "<group>"; };
+		509333FF2A58DE080050DAAE /* ListeningSocket.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ListeningSocket.hpp; sourceTree = "<group>"; };
+		509334032A58F5D90050DAAE /* hdelibc-sockets.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "hdelibc-sockets.cpp"; sourceTree = "<group>"; };
+		509334042A58F5D90050DAAE /* hdelibc-sockets.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "hdelibc-sockets.hpp"; sourceTree = "<group>"; };
+		509334072A594B2A0050DAAE /* hdelibc-networking.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "hdelibc-networking.cpp"; sourceTree = "<group>"; };
+		509334082A594B2A0050DAAE /* hdelibc-networking.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "hdelibc-networking.hpp"; sourceTree = "<group>"; };
+		5093340E2A5A0D2A0050DAAE /* SimpleServer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SimpleServer.cpp; sourceTree = "<group>"; };
+		5093340F2A5A0D2A0050DAAE /* SimpleServer.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SimpleServer.hpp; sourceTree = "<group>"; };
+		509334122A5A12AF0050DAAE /* TestServer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TestServer.cpp; sourceTree = "<group>"; };
+		509334132A5A12AF0050DAAE /* TestServer.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = TestServer.hpp; sourceTree = "<group>"; };
+		509334162A5A1A1E0050DAAE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -24,6 +65,9 @@
 		509333DC2A57991C0050DAAE = {
 			isa = PBXGroup;
 			children = (
+				509333EC2A5799520050DAAE /* hdelibc.cpp */,
+				509333ED2A5799520050DAAE /* hdelibc.hpp */,
+				509333F12A579A2B0050DAAE /* Networking */,
 				509333E62A57991C0050DAAE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -36,6 +80,46 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		509333F12A579A2B0050DAAE /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				509334072A594B2A0050DAAE /* hdelibc-networking.cpp */,
+				509334082A594B2A0050DAAE /* hdelibc-networking.hpp */,
+				5093340D2A5A0D010050DAAE /* Servers */,
+				509334022A58F57D0050DAAE /* Sockets */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		509334022A58F57D0050DAAE /* Sockets */ = {
+			isa = PBXGroup;
+			children = (
+				509334032A58F5D90050DAAE /* hdelibc-sockets.cpp */,
+				509334042A58F5D90050DAAE /* hdelibc-sockets.hpp */,
+				509333F22A579A7A0050DAAE /* SimpleSocket.cpp */,
+				509333F32A579A7A0050DAAE /* SimpleSocket.hpp */,
+				509333F62A58C2D60050DAAE /* BindingSocket.cpp */,
+				509333F72A58C2D60050DAAE /* BindingSocket.hpp */,
+				509333FA2A58D4100050DAAE /* ConnectingSocket.cpp */,
+				509333FB2A58D4100050DAAE /* ConnectingSocket.hpp */,
+				509333FE2A58DE080050DAAE /* ListeningSocket.cpp */,
+				509333FF2A58DE080050DAAE /* ListeningSocket.hpp */,
+			);
+			path = Sockets;
+			sourceTree = "<group>";
+		};
+		5093340D2A5A0D010050DAAE /* Servers */ = {
+			isa = PBXGroup;
+			children = (
+				5093340E2A5A0D2A0050DAAE /* SimpleServer.cpp */,
+				5093340F2A5A0D2A0050DAAE /* SimpleServer.hpp */,
+				509334122A5A12AF0050DAAE /* TestServer.cpp */,
+				509334132A5A12AF0050DAAE /* TestServer.hpp */,
+				509334162A5A1A1E0050DAAE /* main.cpp */,
+			);
+			path = Servers;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -43,6 +127,15 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				509333EF2A5799520050DAAE /* hdelibc.hpp in Headers */,
+				5093340A2A594B2B0050DAAE /* hdelibc-networking.hpp in Headers */,
+				509334062A58F5D90050DAAE /* hdelibc-sockets.hpp in Headers */,
+				509333F92A58C2D60050DAAE /* BindingSocket.hpp in Headers */,
+				509333F52A579A7A0050DAAE /* SimpleSocket.hpp in Headers */,
+				509334012A58DE080050DAAE /* ListeningSocket.hpp in Headers */,
+				509333FD2A58D4100050DAAE /* ConnectingSocket.hpp in Headers */,
+				509334112A5A0D2A0050DAAE /* SimpleServer.hpp in Headers */,
+				509334152A5A12AF0050DAAE /* TestServer.hpp in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,6 +196,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				509333F42A579A7A0050DAAE /* SimpleSocket.cpp in Sources */,
+				509334102A5A0D2A0050DAAE /* SimpleServer.cpp in Sources */,
+				509333F82A58C2D60050DAAE /* BindingSocket.cpp in Sources */,
+				509333FC2A58D4100050DAAE /* ConnectingSocket.cpp in Sources */,
+				509334002A58DE080050DAAE /* ListeningSocket.cpp in Sources */,
+				509334092A594B2A0050DAAE /* hdelibc-networking.cpp in Sources */,
+				509334052A58F5D90050DAAE /* hdelibc-sockets.cpp in Sources */,
+				509334142A5A12AF0050DAAE /* TestServer.cpp in Sources */,
+				509334172A5A1A1E0050DAAE /* main.cpp in Sources */,
+				509333EE2A5799520050DAAE /* hdelibc.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
